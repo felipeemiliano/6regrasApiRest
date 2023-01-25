@@ -1,0 +1,31 @@
+Interface uniforme: permite que o cliente fale com o servidor
+ em uma única linguagem, independente do back-end arquitetônico 
+de qualquer um. Essa interface deve fornecer um meio padronizado
+ e imutável de comunicação entre o cliente e o servidor, como o
+ uso de HTTP com recursos URI, CRUD (Create, Read, Update, Delete)
+ e JSON.
+
+Stateless:Uma aplicação ou processo stateless são recursos isolados.
+ Nenhuma referência ou informação sobre transações antigas são 
+armazenadas, e cada uma delas é feita do zero. As aplicações 
+stateless fornecem uma função ou serviço e usam a rede de entrega
+ de conteúdo (CDN), a web ou servidores de impressão para processar
+ essas solicitações a curto prazo.  
+
+Cachealvél: é a possibilidade de fazer cache dos resultados e 
+melhorar a perfomance.
+
+Cliente e servidor: serve para fazer a separação de responsabilidades
+e desenvolver independentemente, respeitando o contrato.
+
+Sistema em camadas: Camadas do servidor invisíveis ao cliente e 
+aumento da escalabilidade. 
+
+Codigo sob comanda: é a possibilidade de resposta do codigo executável.
+
+HTTP Methods: São ações sobre os recursos e podem ser ou não idempotentes.
+
+HTTP GET (opcional): Usado para se obter determinados recursos , representação em
+formato desejado idempotente.
+
+HTTP DELETE: Usado para deletar recursos, ok ou not found, idempotente.
